@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       /* console.log("hello fbs")
+        alert("plzz enter valid input")
+        console.log("after alert")// interpreter work here
+        a=prompt("Enter a number")
+        console.log("Welcome "+a)
+        b=prompt("Enter a number")
+        console.log("hii"+b)
+        c=a+b
+        console.log("Welcome "+c)//string concatination */
+      /* a1= parseInt(a)
+       b1=parseInt(b)
+       c1=a1+b1
+       console.log("after number"+c1)*/
+       function addition(){
+        console.log("function is called")
+        inp1=document.getElementById("inp1").value
+        inp2=document.getElementById("inp2").value
+        x= parseInt(inp1)
+        y= parseInt(inp2)
+        c=x+y
+        console.log("addition is "+c)
+        
+       }
+
+       
+
+
+    </script>
+</head>
+<body>
+    Enter number 1<input type="text" id="inp1"> 
+    <br><br>
+    Enter number 2<input type="text" id="inp2">
+    <br><br>
+    <button onclick="addition()">Add</button>
+
+    
+</body>
+</html>
