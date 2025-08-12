@@ -3,11 +3,12 @@
 void main()
 {
      int size;
-    char str[]="akanksha";
-    char str1[]="fff";
+    char str[]="sahil";
+    char str1[]="sss";
 
      size=strcspn(str,str1);   //match the charcter
     
     printf("%d",size);
     
+
 }
