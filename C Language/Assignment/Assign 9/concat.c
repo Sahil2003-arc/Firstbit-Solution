@@ -3,10 +3,11 @@
 void main()
 {
     char str[15]="hello";
-    char str1[]="akki";
+    char str1[]="sahil";
 
     strcat(str,str1);
     
     printf("%s",str);
     
+
 }
